@@ -1,0 +1,17 @@
+{
+  "authenticationMethod": "route",
+  "routes": [
+    {
+      "source": "^/fioriui(.*)$",
+      "target": "$1",
+      "localDir": "fioriui",
+      "authenticationType": "xsuaa"
+    },
+    {
+      "source": "^/(.*)$",
+      "target": "$1",
+      "destination": "iambot",
+      "authenticationType": "xsuaa"
+    }
+  ]
+}

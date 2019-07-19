@@ -1,0 +1,113 @@
+{
+  "backenderror": [
+    "Sorry, I think there was an error in my backend system. Please try again later."
+  ],
+  "backenderrorwithmsgtext": [
+    "Sorry, I think there was an error in my backend system (%s). Please try again later."
+  ],
+  "clicktorequestrole": [
+    "Please click here to request your role manually:"
+  ],
+  "clicktoresetpassword": [
+    "Hey, You Have Selected Self Service Password Reset Option, Do You want To continue ?"
+  ],
+  "doyouneedoneoftheseroles": [
+    "Do you need one of these roles for system %s? Please select any role you need and confirm.",
+    "I found these roles matching your description for system %s. Please select the role(s) you need and confirm."
+  ],
+  "enterreasonmutlipleroles": [
+    "Why do you need these roles?",
+    "Please provide a reason why you need these roles.",
+    "Please describe briefly why you need the roles."
+  ],
+  "enterreasonsinglerole": [
+    "Why do you need this role?",
+    "Please provide a reason why you need this role.",
+    "Please describe briefly why you need this role."
+  ],
+  "fallback": [
+    "Sorry, I did not understand that.",
+    "I am sorry, I did not get that. Could you rephrase it?",
+    "I apologize, I did not understand this."
+  ],
+  "fallbackfallback": [
+    "Sorry, I did not understand that. Could you use the self-service directly and give feedback to my developers?"
+  ],
+  "forwhichsystemdoyouneedauser": [
+    "For which system do you need a user?",
+    "In which system do you need the user?",
+    "For which system should I request the user?"
+  ],
+  "forwhichsystemdoyouneedarole": [
+    "For which system do you need a role?",
+    "In which system do you need the role?",
+    "For which system should I request a role?"
+  ],
+  "hello": [
+    "Hello",
+    "Hi there",
+    "Hi",
+    "Hey"
+  ],
+  "no": [
+    "No"
+  ],
+  "requestrole": [
+    "Request role"
+  ],
+  "resetpassword": [
+    "Reset Password"
+  ],
+  "rolenotfound": [
+    "I am sorry, I could not find any role matching the description \"%s\" for system %s (client %s)."
+  ],
+  "rolerequestssummary": [
+    "Ok, I will create a request for the roles %s in system %s (client %s) with reason \"%s\". May I submit this?"
+  ],
+  "rolerequestsummary": [
+    "Ok, I will create a role request for role %s in system %s (client %s) with reason \"%s\". May I submit this?"
+  ],
+  "startover": [
+    "Let's start over.",
+    "Alright, let's try again.",
+    "Ok. Please try again or give me feedback!"
+  ],
+  "successfulrolerequest": [
+    "I successfully requested the role for you.",
+    "Success! I requested the role for you."
+  ],
+  "successfulrolerequests": [
+    "I successfully requested the roles for you.",
+    "Success! I requested the roles for you."
+  ],
+  "unsuccessfulrolerequest": [
+    "Sorry, I could not request the roles, please try again later.",
+    "I am afraid I could not request the roles, please try again later."
+  ],
+  "whatelsecanidoforyou": [
+    "What else can I do for you?",
+    "Is there anything else I can do for you?",
+    "Can I help you with anything else?"
+  ],
+  "whichrolesdoyouneed": [
+    "Which roles do you need for system %s (you can specify the role names or give me some keywords)?",
+    "Which roles do you need for %s? You can tell me the role names or just give me some keywords, so that I can search for the roles."
+  ],
+
+  "yes": [
+    "Sure",
+    "Yes"
+  ],
+  "substitute": [
+    "Hey, Hey, It will Redirect to  Fiori Launchpad page. Do You want To continue?"
+  ],
+  "authhistory": [
+    "Hey, It will display Authorization history on  Fiori Launchpad page. Do You want To continue?"
+  ],
+  "myaccess": [
+    "Hey, It will Display all Assigned Authorization on Fiori Launchpad page. Do You want To continue?"
+  ],
+  "accessapprover": [
+    "Hey, It will Redirect to  Multi Access Approver on Fiori Launchpad page. Do You want To continue?"
+  ]
+}

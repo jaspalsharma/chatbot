@@ -1,0 +1,41 @@
+{
+	"authenticationMethod": "saml",
+	"securityConstraints": [
+		{
+			"permission": "AccessApplicationDescriptor",
+			"description": "Access User Data",
+			"protectedPaths": [
+				"/"
+			],
+			"excludedPaths": [
+				"/logout/**"
+			]
+		}
+	],
+	"welcomeFile": "/index.html",
+	"routes": [{
+		"path": "/resources",
+		"target": {
+			"type": "service",
+			"name": "sapui5",
+			"entryPath": "/resources"
+		},
+		"description": "SAPUI5 Resources"
+	}, {
+		"path": "/test-resources",
+		"target": {
+			"type": "service",
+			"name": "sapui5",
+			"entryPath": "/test-resources"
+		},
+		"description": "SAPUI5 Test Resources"
+	}, {
+		"path": "/api",
+		"target": {
+			"type": "destination",
+      "name": "iambot"
+		},
+		"description": "Chatbot Connection for Data Retrievement"
+	}],
+	"sendWelcomeFileRedirect": true
+}

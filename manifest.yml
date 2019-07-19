@@ -1,0 +1,32 @@
+---
+applications:
+- name: iambottest
+  path: src
+  buildpacks:
+    - nodejs_buildpack
+  command: npm run start
+  memory: 1024M
+  services:
+    - amsxsuaa
+    - UAPReqBot_HANA_DBaaS
+    - amsdestinationservice
+    - amsconnectivity
+    - amsdbcredentials #user-provided
+    - iamconversationalai #user-provided
+  
+
+- name: iambot
+  path: approuter
+  buildpacks:
+    - nodejs_buildpack
+  memory: 256M
+  services:
+    - amsxsuaa
+  env:
+    destinations: >
+      [
+        {"name":"iambot",
+         "url":"https://iambottest.cfapps.eu10.hana.ondemand.com",
+         "forwardAuthToken": true}
+         
+      ]

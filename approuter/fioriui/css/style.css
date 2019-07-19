@@ -1,0 +1,155 @@
+.sapMList {
+    padding-right: 1.5rem !important;
+}
+
+.floatLeft {
+    float: left !important;
+}
+
+.sapMIBar.sapMHeader-CTX {
+    background-color: #3C4D5C !important;
+}
+
+.sapMIBar.sapMSubHeader-CTX {
+    background-color: #fff !important;
+}
+
+.sapMBar {
+    text-shadow: none !important;
+    box-shadow: none !important;
+}
+
+html.sap-desktop .sapContrast .sapMIBar.sapMFooter-CTX,
+html.sap-desktop .sapContrast.sapMIBar.sapMFooter-CTX {
+    background-color: #fff !important;
+    border-top: none !important;
+}
+
+.sapContrast.sapMInputBaseInner,
+.sapContrast .sapMInputBaseInner {
+    background-color: #fff !important;
+    border: 1px solid #BFBFBF !important;
+    color: #000 !important;
+}
+
+.sapContrast.sapMInputBaseInner,
+.sapContrast .sapMInputBaseInner::placeholder {
+    color: #BFBFBF !important;
+}
+
+.sapMPage>section.sapMPageEnableScrolling {
+    background-color: #F5F5F5 !important;
+}
+
+.sapMLIB:hover {
+    background-color: transparent !important;
+}
+
+.headerText {
+    color: #fff !important;
+    font-family: "Helvetica", sans-serif;
+}
+
+.noHighlitghBtn {
+    text-shadow: none !important;
+    color: #fff !important;
+}
+
+.topAvater {
+    margin-top: 0.5rem;
+}
+
+.input-send-button .sapMBtnInner {
+    -webkit-border-radius: 25px !important;
+    -moz-border-radius: 25px !important;
+    border-radius: 25px !important;
+}
+
+.inputMessage .sapMInputBaseContentWrapper {
+    -webkit-border-radius: 30px !important;
+    -moz-border-radius: 30px !important;
+    border-radius: 30px !important;
+}
+
+.maxWidth {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.buttonPadding {
+    padding-right: 0.5rem;
+}
+
+.yesNoBtn {
+    width: 200px !important;
+}
+
+.recastListItemTitle {
+    color: black;
+}
+
+
+/* bot replies */
+
+.sapMFlexBoxBGSolid {
+    background: #91C8F6 !important;
+    border: 2px solid #91C8F6;
+    color: #000 !important;
+    -webkit-border-radius: 20px 20px 20px 0px !important;
+    -moz-border-radius: 20px 20px 20px 0px !important;
+    border-radius: 20px 20px 20px 0px !important;
+}
+
+.sapMText {
+    font-size: 1.3rem !important;
+}
+
+.sapMLnk {
+    font-size: 1.3rem !important;
+}
+
+
+/*user input*/
+
+.sapMFlexBoxBGTranslucent {
+    background: #F0AB00 !important;
+    color: #fff !important;
+    -webkit-border-radius: 20px 20px 0 20px !important;
+    -moz-border-radius: 20px 20px 0 20px !important;
+    border-radius: 20px 20px 0 20px !important;
+}
+
+.sapMListBGSolid .sapMLIB:not(.sapMLIBActive):not(.sapMLIBSelected):not(:hover) {
+    background: transparent !important;
+}
+
+.sapMListNoData {
+    border-bottom: none !important;
+}
+
+.sapMLIB {
+    border-bottom: none !important;
+}
+
+@keyframes glowing {
+    0% {
+        box-shadow: 0 0 -10px #FF6347;
+        border-radius: 20px;
+    }
+    40% {
+        box-shadow: 0 0 20px #FF6347;
+        border-radius: 20px;
+    }
+    60% {
+        box-shadow: 0 0 20px #FF6347;
+        border-radius: 20px;
+    }
+    100% {
+        box-shadow: 0 0 -10px #FF6347;
+        border-radius: 20px;
+    }
+}
+
+.recordingButton {
+    animation: glowing 3000ms infinite;
+}

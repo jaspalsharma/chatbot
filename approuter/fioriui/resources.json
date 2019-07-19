@@ -1,0 +1,45 @@
+{
+    "resources": [
+        {
+            "name": "controller/Main.controller.js"
+        },
+        {
+            "name": "index.html"
+        },
+        {
+            "name": "css/style.css"
+        },
+        {
+            "name": "nlp_explanation.pdf"
+        },
+        {
+            "name": "manifest.json"
+        },
+        {
+            "name": "view/Main.view.xml"
+        },
+        {
+            "name": "extended_runnable_file.html"
+        },
+        {
+            "name": "recast_architecture.pdf"
+        },
+        {
+            "name": "i18n/i18n.properties",
+            "raw": "i18n/i18n.properties"
+        },
+        {
+            "name": "model/models.js"
+        },
+        {
+            "name": "Component.js"
+        },
+        {
+            "name": "Component-preload.js",
+            "merged": true
+        },
+        {
+            "name": "neo-app.json"
+        }
+    ]
+}
